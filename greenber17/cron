@@ -1,0 +1,8 @@
+Exercises on cron and at
+
+0. 15 22 * * 2 touch /tmp/dummy 0 4 * * 6 rm /tmp/dummy
+
+1. 0 0 1 * * size /var/mail/stone | mail -s "Size of File"
+stone@cs.grinnell.edu
+
+2. at now + 5 hours cat /tmp/newlog >> /tmp/archive
