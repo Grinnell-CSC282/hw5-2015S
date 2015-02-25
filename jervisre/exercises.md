@@ -23,4 +23,5 @@
    Enter 'at' and time, issue commands, enter ctrl-D to exit.
 
    at now"+5hours" 
-   at> cat tmp/newlog >> /tmp/archive
+
+   cat tmp/newlog >> /tmp/archive
