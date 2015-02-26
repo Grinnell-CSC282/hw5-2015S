@@ -1,4 +1,4 @@
-##CSC-282 Homework 3
+##CSC-282 Homework 5
 February 25th, 2015
 Wesley Pollock
 
@@ -12,9 +12,10 @@ Wesley Pollock
 
 ####1. Write a cronfile that will determine the size of the file named `/var/mail/stone` at midnight on the first day of each month and mail the result of that determination to `stone@cs.grinnell.edu`
 
+
 ``` 
 #minute | hour | day of month | month |  day of week
-@monthly ls -l /var/mail/stone | cut -d' ' -f5 | mail -s "Mail File Size" stone@cs.grinnell.edu
+@monthly echo "The size of /var/mail/stone is $(ls -l /var/mail/stone | cut -d' ' -f5)" | mail -s "File Size" pollockj@grinnell.edu
 ```
 
 ####2. Issue an `at` command to append the contents of a file named `/tmp/newlog` to an already existing file named `/tmp/archive` five hours from now.
