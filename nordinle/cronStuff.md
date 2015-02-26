@@ -34,6 +34,7 @@ cat /tmp/newlog >> /tmp/archive
 ```
 
 then 
-```shell 
+``` shell
 ^D
-``` and you are good to go
+``` 
+and you are good to go
