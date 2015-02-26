@@ -1,0 +1,2 @@
+@monthly ls -sh /var/mail/stone | mailx -s your_email_size -r bashlovk@grinnell.edu stone@cs.grinnell.edu
+

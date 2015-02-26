@@ -1,0 +1,3 @@
+at now + 1 min
+cat /tmp/newlog >> /tmp/archive
+^D
